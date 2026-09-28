@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "title": "Texas household resilience context snapshot",
+    "retrieved": "2026-09-28",
+    "scope": "Texas statewide and regional educational context",
+    "warning": "Statewide and historical data do not determine an individual household premium, coverage, claim outcome, or future hazard."
+  },
+  "market_snapshot_2025": {
+    "active_homeowners_policies": 8233096,
+    "average_annual_homeowners_premium_usd": 3489,
+    "total_insured_value_usd": 2404731301000,
+    "direct_written_premium_usd": 19750000000,
+    "companies": 157,
+    "groups": 81,
+    "source": "Texas Department of Insurance — Texas homeowners insurance market overview",
+    "source_url": "https://tdi.texas.gov/general/texas-homeowners-insurance-market-overview.html",
+    "evidence_class": "A",
+    "notes": "TDI labels the 2025 total insured value preliminary. County-level values are available from TDI."
+  },
+  "loss_snapshot_2025": {
+    "paid_losses_major_perils_usd": 8740000000,
+    "wind_hail_average_share_since_2019_pct": 62,
+    "source": "Texas Department of Insurance — June 22, 2026 transparency announcement",
+    "source_url": "https://www.tdi.texas.gov/news/2026/tdi06222026.html",
+    "evidence_class": "A",
+    "notes": "TDI states the $8.74B total covers wind and hail; water; fire; and theft, liability, and vandalism for 2025."
+  },
+  "rate_filing_context_2026": {
+    "avg_filed_rate_request_30_day_august_pct": -0.8,
+    "avg_filed_rate_request_90_day_june_august_pct": -1.8,
+    "source": "Texas Department of Insurance — market overview",
+    "source_url": "https://tdi.texas.gov/general/texas-homeowners-insurance-market-overview.html",
+    "evidence_class": "A",
+    "notes": "Filed rate requests are market aggregates, not a promise that a particular policy will decrease."
+  },
+  "flood_planning": {
+    "state_plan_year": 2024,
+    "regional_flood_planning_groups": 15,
+    "planning_group_members_over": 350,
+    "public_meetings_over": 550,
+    "source": "Texas Water Development Board — 2024 State Flood Plan",
+    "source_url": "https://www.twdb.texas.gov/flood/planning/sfp/2024/index.asp",
+    "evidence_class": "A",
+    "notes": "The plan combines regional planning and statewide recommendations; local conditions and newer events still require verification."
+  },
+  "coastal_wind": {
+    "twia_counties": [
+      "Aransas",
+      "Brazoria",
+      "Calhoun",
+      "Cameron",
+      "Chambers",
+      "Galveston",
+      "Jefferson",
+      "Kenedy",
+      "Kleberg",
+      "Matagorda",
+      "Nueces",
+      "Refugio",
+      "San Patricio",
+      "Willacy"
+    ],
+    "harris_note": "Parts of Harris County east of Highway 146 in specified coastal cities are also in the catastrophe area described by TDI.",
+    "source": "Texas Department of Insurance — market overview / windstorm guidance",
+    "source_url": "https://tdi.texas.gov/general/texas-homeowners-insurance-market-overview.html",
+    "evidence_class": "A"
+  },
+  "nfip_waiting_period": {
+    "general_days": 30,
+    "source": "National Flood Insurance Program — Buy a Flood Insurance Policy",
+    "source_url": "https://www.floodsmart.gov/get-insured/buy-a-policy",
+    "evidence_class": "A",
+    "notes": "NFIP lists exceptions; users should verify timing for their situation. Private flood products can differ."
+  },
+  "wildfire": {
+    "firewise_sites_texas_over": 100,
+    "immediate_noncombustible_zone_feet": "0–5",
+    "source": "Texas A&M Forest Service — Firewise USA / Immediate Noncombustible Zone",
+    "source_url": "https://tfsweb.tamu.edu/wildfire-and-other-disasters/communities-prevention-and-preparedness/firewise-usa-program/",
+    "evidence_class": "C",
+    "notes": "Texas A&M Forest Service cites IBHS/NFPA research for the 0–5 foot zone and promotes home hardening, evacuation planning, and community coordination."
+  },
+  "claims_process_context": {
+    "source": "Texas Department of Insurance — Home insurance guide / claim tips",
+    "source_url": "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+    "evidence_class": "A",
+    "notes": "TDI describes general claims-processing deadlines, while noting major disasters can alter timelines. Users should rely on current law, policy wording, and TDI guidance for a specific claim."
+  },
+  "regions": [
+    {
+      "id": "gulf",
+      "name": "Gulf Coast",
+      "emphasis": [
+        "hurricane wind",
+        "hail",
+        "storm surge",
+        "rainfall flooding",
+        "extended outage",
+        "temporary housing",
+        "coastal wind-coverage structure"
+      ],
+      "cross_domains": [
+        "insurance",
+        "housing",
+        "energy",
+        "water",
+        "health",
+        "mobility",
+        "emergency-management"
+      ]
+    },
+    {
+      "id": "central",
+      "name": "Central Texas",
+      "emphasis": [
+        "flash flooding",
+        "severe thunderstorms",
+        "hail",
+        "wildland-urban interface wildfire",
+        "heat",
+        "outage"
+      ],
+      "cross_domains": [
+        "insurance",
+        "water",
+        "housing",
+        "energy",
+        "mobility",
+        "emergency-management"
+      ]
+    },
+    {
+      "id": "north",
+      "name": "North Texas",
+      "emphasis": [
+        "hail",
+        "severe thunderstorms",
+        "tornado",
+        "freeze",
+        "urban drainage flooding",
+        "outage"
+      ],
+      "cross_domains": [
+        "insurance",
+        "housing",
+        "energy",
+        "water",
+        "emergency-management"
+      ]
+    },
+    {
+      "id": "panhandle",
+      "name": "Panhandle",
+      "emphasis": [
+        "wind",
+        "hail",
+        "tornado",
+        "wildfire",
+        "freeze",
+        "rural service distance"
+      ],
+      "cross_domains": [
+        "insurance",
+        "agriculture",
+        "energy",
+        "water",
+        "mobility",
+        "emergency-management"
+      ]
+    },
+    {
+      "id": "west",
+      "name": "West Texas / Permian Basin",
+      "emphasis": [
+        "wind",
+        "hail",
+        "wildfire",
+        "freeze",
+        "water-system dependence",
+        "long repair distances"
+      ],
+      "cross_domains": [
+        "insurance",
+        "energy",
+        "water",
+        "housing",
+        "mobility",
+        "emergency-management"
+      ]
+    },
+    {
+      "id": "east",
+      "name": "East Texas",
+      "emphasis": [
+        "severe thunderstorms",
+        "tornado",
+        "river/rainfall flooding",
+        "wildfire",
+        "tree damage",
+        "outage"
+      ],
+      "cross_domains": [
+        "insurance",
+        "forestry",
+        "water",
+        "energy",
+        "housing",
+        "emergency-management"
+      ]
+    },
+    {
+      "id": "rgv",
+      "name": "Rio Grande Valley",
+      "emphasis": [
+        "hurricane/tropical storm",
+        "flooding",
+        "heat",
+        "wind",
+        "power disruption",
+        "displacement"
+      ],
+      "cross_domains": [
+        "insurance",
+        "health",
+        "energy",
+        "water",
+        "housing",
+        "mobility",
+        "emergency-management"
+      ]
+    }
+  ]
+}

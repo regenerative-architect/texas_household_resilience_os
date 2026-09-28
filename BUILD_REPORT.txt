@@ -1,0 +1,41 @@
+Texas Household Resilience & Insurance OS — Build Report
+Build date: 2026-09-28
+
+Implemented:
+- Public-ready multi-route household resilience and insurance web application
+- Texas-specific sourced context and provenance/freshness registry
+- IndexedDB/local-first workflows and data portability
+- PWA manifest, icons, service worker, offline fallback
+- Optional WebLLM browser-local inference with deterministic fallback
+- Same-origin BroadcastChannel collaboration
+- Optional zero-dependency Node WebSocket multiplayer server
+- Cross-domain roles, working-group templates, shared tasks/evidence/decisions/incidents/comments
+- Strict shareable-record whitelist; private household/insurance records excluded from sync protocol
+- Live-on-demand NWS Texas alerts and OpenFEMA Texas declaration adapters
+- English/Spanish core UI architecture, accessibility controls, print support
+- Security/privacy/deployment documentation
+
+Verification performed:
+PASS - tools/verify.py required files/JSON/routes/manifest/SW/assets checks
+PASS - no duplicate HTML IDs (204 IDs at build verification)
+PASS - JavaScript syntax checked with Node
+PASS - collaboration server has zero third-party runtime dependencies
+PASS - HTTP server returned index.html (200)
+PASS - /server/* static privacy boundary returned 404
+PASS - two independent WebSocket clients exchanged a sanitized shared-task event
+PASS - test-only private field was removed by the collaboration protocol
+
+Not claimed as fully tested:
+- Full browser/device matrix
+- WCAG conformance audit by assistive technology
+- WebGPU model download/inference on every supported device/browser
+- Production TLS/reverse-proxy deployment
+- High-concurrency/load testing
+- Legal or insurer-specific interpretation of any individual policy
+
+Important boundaries:
+- WebLLM requires compatible WebGPU plus an initial online library/model fetch unless already cached by the browser.
+- Service workers require HTTPS or localhost and do not operate under file://.
+- Live NWS/OpenFEMA data requires network access and is retrieved only on user action.
+- Shared multiplayer data is not end-to-end encrypted by the reference server; deploy behind TLS and apply appropriate access controls for real-world use.
+- SHA-256 checks integrity of file bytes, not authorship or provenance by itself.

@@ -1,0 +1,154 @@
+{
+  "schema": "tx-resilience-cross-domain-v1",
+  "privacy": "Only deliberately shared coordination records should leave the household device. Private insurance, income, claim, inventory and household-twin fields are excluded from the multiplayer protocol.",
+  "domains": [
+    "household",
+    "insurance-literacy",
+    "housing",
+    "construction",
+    "water",
+    "energy",
+    "health",
+    "mobility",
+    "emergency-management",
+    "finance",
+    "social-services",
+    "research",
+    "municipal-planning",
+    "wildfire",
+    "flood"
+  ],
+  "roles": [
+    "Household lead",
+    "Renter",
+    "Homeowner",
+    "Housing counselor",
+    "Emergency manager",
+    "Municipal planner",
+    "Water specialist",
+    "Energy specialist",
+    "Health continuity specialist",
+    "Accessibility advocate",
+    "Contractor / building specialist",
+    "Insurance educator",
+    "Nonprofit coordinator",
+    "Researcher",
+    "Community volunteer"
+  ],
+  "templates": [
+    {
+      "id": "freeze-burst",
+      "name": "Freeze → pipe burst → displacement",
+      "domains": [
+        "water",
+        "housing",
+        "insurance-literacy",
+        "energy",
+        "health"
+      ],
+      "tasks": [
+        "Locate and label water shutoff",
+        "Review plumbing/freeze policy language",
+        "Map safe heat continuity",
+        "Document vulnerable plumbing",
+        "Plan temporary lodging and accessibility needs",
+        "Track repair scope and receipts"
+      ]
+    },
+    {
+      "id": "hail-roof",
+      "name": "Hail + aging roof + high deductible",
+      "domains": [
+        "housing",
+        "construction",
+        "insurance-literacy",
+        "finance"
+      ],
+      "tasks": [
+        "Record roof age/material/warranty",
+        "Inspect or document current condition",
+        "Translate percentage deductible to dollars",
+        "Compare resilient roof options",
+        "Plan reserve contribution",
+        "Verify any insurer mitigation documentation requirements"
+      ]
+    },
+    {
+      "id": "flood-displacement",
+      "name": "Flood exposure + displacement continuity",
+      "domains": [
+        "water",
+        "housing",
+        "insurance-literacy",
+        "mobility",
+        "health",
+        "emergency-management"
+      ],
+      "tasks": [
+        "Check official flood-planning/map context",
+        "Verify flood coverage and waiting periods",
+        "Protect inventory/document backups",
+        "Plan evacuation and transport",
+        "Identify accessible/pet-capable temporary housing",
+        "Track local recovery resources"
+      ]
+    },
+    {
+      "id": "medical-outage",
+      "name": "Extended outage + medical continuity",
+      "domains": [
+        "energy",
+        "health",
+        "mobility",
+        "emergency-management",
+        "insurance-literacy"
+      ],
+      "tasks": [
+        "List electricity-dependent medical needs",
+        "Build medically appropriate backup-power plan",
+        "Identify cooling/heating contingency",
+        "Set transport fallback",
+        "Record emergency contacts",
+        "Verify property/food-loss terms without assuming coverage"
+      ]
+    },
+    {
+      "id": "wildfire-home",
+      "name": "Wildfire home-hardening working group",
+      "domains": [
+        "wildfire",
+        "housing",
+        "construction",
+        "emergency-management",
+        "insurance-literacy"
+      ],
+      "tasks": [
+        "Assess 0–5 foot immediate zone",
+        "Reduce ember-entry vulnerabilities",
+        "Document roof/vent/deck conditions",
+        "Coordinate evacuation plan",
+        "Review community Firewise/CWPP resources",
+        "Verify insurance documentation needs"
+      ]
+    },
+    {
+      "id": "rural-continuity",
+      "name": "Rural well + septic + power continuity",
+      "domains": [
+        "water",
+        "energy",
+        "housing",
+        "health",
+        "mobility"
+      ],
+      "tasks": [
+        "Map well and pump dependencies",
+        "Map septic dependencies",
+        "Plan safe backup power",
+        "Maintain potable-water reserve",
+        "Plan contractor/service-distance contingencies",
+        "Document repair contacts and access constraints"
+      ]
+    }
+  ]
+}

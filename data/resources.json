@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tdi-market",
+    "title": "Texas homeowners insurance market overview",
+    "issuer": "Texas Department of Insurance",
+    "jurisdiction": "Texas",
+    "date": "2026 data / 2025 market snapshot",
+    "url": "https://tdi.texas.gov/general/texas-homeowners-insurance-market-overview.html",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "premiums",
+      "county data",
+      "market",
+      "TWIA"
+    ],
+    "relevance": "State and county market context; not an individual quote."
+  },
+  {
+    "id": "tdi-losses",
+    "title": "Texas homeowners losses by county",
+    "issuer": "Texas Department of Insurance",
+    "jurisdiction": "Texas",
+    "date": "updated 2026-06-22",
+    "url": "https://www.tdi.texas.gov/consumer/homeowners-losses-by-county.html",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "losses",
+      "county data",
+      "perils"
+    ],
+    "relevance": "County-level paid-loss context. Excludes TWIA wind/hail losses."
+  },
+  {
+    "id": "tdi-guide",
+    "title": "Home insurance guide",
+    "issuer": "Texas Department of Insurance",
+    "jurisdiction": "Texas",
+    "date": "current consumer guide",
+    "url": "https://www.tdi.texas.gov/pubs/consumer/cb025.html",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "coverage",
+      "claims",
+      "replacement cost",
+      "ACV",
+      "flood",
+      "wind"
+    ],
+    "relevance": "Core Texas consumer insurance literacy."
+  },
+  {
+    "id": "tdi-home-flood-wind",
+    "title": "Home, flood, wind: Which policies do you need?",
+    "issuer": "Texas Department of Insurance",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://www.tdi.texas.gov/consumer/storms/home-flood-wind.html",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "homeowners",
+      "flood",
+      "wind",
+      "hail"
+    ],
+    "relevance": "Explains separate policy roles and coastal differences."
+  },
+  {
+    "id": "tdi-rights",
+    "title": "Consumer Bills of Rights",
+    "issuer": "Texas Department of Insurance",
+    "jurisdiction": "Texas",
+    "date": "updated 2025-05-01",
+    "url": "https://www.tdi.texas.gov/commissioner/rights.html",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "rights",
+      "renters",
+      "homeowners",
+      "claims"
+    ],
+    "relevance": "Official procedural rights summary and regulatory references."
+  },
+  {
+    "id": "tdi-claims",
+    "title": "Tips for filing a claim with your insurance company",
+    "issuer": "Texas Department of Insurance",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://www.tdi.texas.gov/consumer/claimtips.html",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "claims",
+      "documentation",
+      "communications"
+    ],
+    "relevance": "Claim documentation and communications guidance."
+  },
+  {
+    "id": "helpinsure",
+    "title": "HelpInsure.com",
+    "issuer": "Texas Department of Insurance / Office of Public Insurance Counsel",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://www.helpinsure.com/",
+    "grade": "A",
+    "freshness": "Live",
+    "topics": [
+      "shopping",
+      "sample rates",
+      "complaints",
+      "financial rating"
+    ],
+    "relevance": "State-established comparison resource. Actual quotes still require insurers/agents."
+  },
+  {
+    "id": "tdem",
+    "title": "Texas Division of Emergency Management",
+    "issuer": "TDEM",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://tdem.texas.gov/",
+    "grade": "A",
+    "freshness": "Live",
+    "topics": [
+      "preparedness",
+      "damage reporting",
+      "recovery"
+    ],
+    "relevance": "Preparedness, disaster information, damage reporting and recovery navigation."
+  },
+  {
+    "id": "tdem-recovery",
+    "title": "TDEM Recovery",
+    "issuer": "TDEM",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://tdem.texas.gov/recovery",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "recovery",
+      "grants",
+      "local government"
+    ],
+    "relevance": "State recovery operations and coordination context."
+  },
+  {
+    "id": "twdb-plan",
+    "title": "2024 State Flood Plan",
+    "issuer": "Texas Water Development Board",
+    "jurisdiction": "Texas",
+    "date": "2024",
+    "url": "https://www.twdb.texas.gov/flood/planning/sfp/2024/index.asp",
+    "grade": "A",
+    "freshness": "Historical",
+    "topics": [
+      "flood",
+      "planning",
+      "mitigation",
+      "regional planning"
+    ],
+    "relevance": "Statewide flood-risk planning, projects and strategies."
+  },
+  {
+    "id": "tfs-prepare",
+    "title": "Prepare for Wildfires",
+    "issuer": "Texas A&M Forest Service",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://tfsweb.tamu.edu/wildfire-and-other-disasters/homeowners-prevention-and-preparedness/prepare-for-wildfires-home/",
+    "grade": "C",
+    "freshness": "Recent",
+    "topics": [
+      "wildfire",
+      "home hardening",
+      "evacuation",
+      "embers"
+    ],
+    "relevance": "Texas-specific homeowner wildfire preparedness."
+  },
+  {
+    "id": "tfs-firewise",
+    "title": "Firewise USA Program in Texas",
+    "issuer": "Texas A&M Forest Service",
+    "jurisdiction": "Texas",
+    "date": "current",
+    "url": "https://tfsweb.tamu.edu/wildfire-and-other-disasters/communities-prevention-and-preparedness/firewise-usa-program/",
+    "grade": "C",
+    "freshness": "Recent",
+    "topics": [
+      "wildfire",
+      "community",
+      "Firewise"
+    ],
+    "relevance": "Community risk assessment and multi-year action planning."
+  },
+  {
+    "id": "nfip",
+    "title": "Buy a Flood Insurance Policy",
+    "issuer": "National Flood Insurance Program",
+    "jurisdiction": "United States",
+    "date": "current",
+    "url": "https://www.floodsmart.gov/get-insured/buy-a-policy",
+    "grade": "A",
+    "freshness": "Recent",
+    "topics": [
+      "flood insurance",
+      "waiting period",
+      "NFIP"
+    ],
+    "relevance": "Official NFIP coverage and waiting-period information."
+  },
+  {
+    "id": "nws-api",
+    "title": "National Weather Service API",
+    "issuer": "NOAA / National Weather Service",
+    "jurisdiction": "United States",
+    "date": "updated 2026-03-24",
+    "url": "https://www.weather.gov/documentation/services-web-api",
+    "grade": "A",
+    "freshness": "Live",
+    "topics": [
+      "weather",
+      "alerts",
+      "API"
+    ],
+    "relevance": "Open alert and forecast API used by the optional live-alert adapter."
+  },
+  {
+    "id": "fema-open",
+    "title": "OpenFEMA Disaster Declarations Summaries",
+    "issuer": "FEMA",
+    "jurisdiction": "United States",
+    "date": "live dataset",
+    "url": "https://www.fema.gov/about/openfema/data-sets",
+    "grade": "A",
+    "freshness": "Live",
+    "topics": [
+      "disaster declarations",
+      "recovery",
+      "API"
+    ],
+    "relevance": "Official declarations dataset used by the optional Texas declaration adapter."
+  },
+  {
+    "id": "webllm",
+    "title": "WebLLM",
+    "issuer": "MLC AI",
+    "jurisdiction": "software",
+    "date": "current",
+    "url": "https://github.com/mlc-ai/web-llm",
+    "grade": "C",
+    "freshness": "Recent",
+    "topics": [
+      "local AI",
+      "WebGPU",
+      "privacy"
+    ],
+    "relevance": "Optional in-browser language-model runtime. Apache-2.0; models have their own licenses."
+  }
+]
